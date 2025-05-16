@@ -4,7 +4,7 @@ export default function TaskCard({ task, statusColors, navigate }) {
   return (
     <div
       key={task._id}
-      className="bg-white rounded-2xl hover:bg-yellow-300 shadow-md hover:shadow-2xl transition-all duration-300 p-6 flex flex-col border border-gray-200 hover:bg-gray-50 cursor-pointer"
+      className="bg-white rounded-2xl hover:bg-yellow-300 shadow-md hover:shadow-2xl transition-all duration-300 p-6 flex flex-col border border-gray-200  cursor-pointer"
     >
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold text-gray-800">{task.title}</h2>
