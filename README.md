@@ -52,7 +52,6 @@ npm install
 ```
 MONGO_URI=your_mongodb_connection_uri
 JWT_SECRET=your_jwt_secret_key
-PORT=3000
 ```
 
 > 🔒 **Note:** Never share your `.env` file or secrets in version control.
